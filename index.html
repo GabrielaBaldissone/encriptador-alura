@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header class="header">
+        
+        <img class="logo" src="img/letraarriba.png" alt="">
+    
+    </header>
+    <main class="main">
+        <section class="main__section">
+            <textarea id="texto_encriptar" class="form__input" type="text" placeholder="Ingrese un texto aquí"></textarea>
+            <span class="form__span"><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos.</span>
+        
+
+            <div class="form_container">
+                <button id="encriptar" class="button__encriptar">Encriptar!</button>
+                <button id="desencriptar" class="button__desencriptar">Desencriptar!</button>
+            </div>
+        </section>
+        <section class="section__mensaje">
+            <textarea id="resultado_" class="form__input__mensaje" type="text" placeholder="Ingresa el texto que desees encriptar o desencriptar." readonly></textarea>
+            <div class="form_container">
+                <button id="copiar" class="button__copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__parrafo">Baldissone, Gabriela Soledad - 2024</p>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F5FC;
+    font-family: "Playfair Display", serif;
+}
+
+.logo{
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 10%;
+}
+
+.main { 
+    margin: 0 auto;
+    color: white;
+}
+
+.main__section {
+    text-align: center;
+}
+
+.form__input{
+    background-color: #F3F5FC;
+    border: none;
+    width: 380px;
+    height: 250px;
+    font-size: 20px;
+    padding: 15px 20px; 
+    text-align: left; 
+    box-sizing: border-box;
+    margin: 10px;
+    resize: none;
+}
+
+.form__input::placeholder{
+    color: #0A3871;
+    font-size: 20px;
+    text-align: left; 
+    padding-left: 5px; 
+    padding-top: 5px; 
+}
+
+.form__input:focus {
+    border: none; 
+    outline: none; 
+}
+
+.form_container {
+    text-align: center; 
+}
+
+.form__span{
+    display: block;
+    color: #495057;
+    font-size: 18px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.form__input__mensaje {
+    border: none;
+    width: 350px;
+    height: 250px;
+    font-size: 20px;
+    padding: 15px 20px; 
+    box-sizing: border-box;
+    margin-top: 10px;
+    resize: none;
+}
+
+.form__input__mensaje::placeholder {
+    color: #000000;
+    font-size: 20px;
+    text-align: center; 
+    padding-left: 5px; 
+    padding-top: 5px; 
+}
+
+.form__input__mensaje:focus {
+    border: none; 
+    outline: none; 
+}
+
+
+
+.button__encriptar {
+    background-color: #0A3871;
+    border-radius: 24px;
+    border: none;
+    width: 300px;
+    height: 67px;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.button__desencriptar{
+    background-color: #F3F5FC;
+    border-radius: 24px;
+    border: 1px solid  #0A3871;
+    width: 300px;
+    height: 67px;
+    color: #0A3871;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.button__copiar {
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: 1px solid  #0A3871;
+    width: 200px;
+    height: 45px;
+    color: #0A3871;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.section__mensaje {
+    text-align: center;
+    background-color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 35px;
+    width: 430px;
+    margin: 0 auto;
+}
+
+.footer{
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+/*MEDIAS QUERIES*/
+
+@media screen and (min-width: 481px) {
+
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.button__encriptar {
+    width: 250px;
+    height: 55px;
+}
+
+.button__desencriptar{ 
+    width: 250px;
+    height: 55px;
+}
+
+}
+
+
+@media screen and (min-width: 769px) { 
+
+.logo {
+    width: 3%;
+    margin-left: 8px
+}
+
+.main {
+    margin: 0 auto;
+    display: flex;
+}
+
+.form__input{
+    margin-left: 70px;
+    width: 600px;
+    height: 400px;
+}
+
+.section__mensaje {
+    margin-left: 100px;
+    width: 450px;
+    height: 500px;
+}
+
+.form__input__mensaje{
+    width: 70%;
+    height: 85%;
+}
+
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.button__encriptar {
+    width: 250px;
+    height: 55px;
+}
+
+.button__desencriptar{ 
+    width: 250px;
+    height: 55px;
+}
+
+
+}
